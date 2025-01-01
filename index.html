@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Prateepan<span> MS</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#Education">Education</a>
+            <a href="#Achievements">Achievements</a>
+            <a href="#Certifications">Certifications</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Prateepan</span></h1>
+            <h3 class="text-animation">I am <span></span></h3>
+            <p>
+                I am passionate about web development, driven by a deep curiosity and a commitment to innovation and creativity. With a focus on website development, I aim to deliver impactful solutions that blend problem-solving skills with unique methodologies. Let's connect and explore how my skills can contribute to your next project or initiative.
+            </p>
+            <div class="btn-group">
+                <a href="#" class="btn">Resume</a>
+                <a href="#Contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="prateepan.jpeg" width="400" class="img-responsive" alt="Prateepan MS" data-aos="fade-center" data-aos-delay="0">
+        </div>
+    </section>
+
+    <section id="Education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p><i>Velalar Vidyalayaa Senior Secondary School</i></p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>PSG College of Arts & Science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Achievements">
+        <h2 class="heading">Achievements</h2>
+        <p>I have attended several hackathons and participated in various coding challenges.</p>
+    
+        <div class="achievement-item">
+            <h3>Smart India Hackathon 2024 - Grand Finale</h3>
+            <ul>
+                <li><strong>Theme:</strong> Transportation and Logistics (PSID 1594)</li>
+                <li><strong>Project:</strong> <em>Metro-Gaadi</em> – A web app for real-time traffic updates, parking indicators, emergency SOS, and a dynamic toll model.</li>
+                <li><strong>Role:</strong> UI/UX Designer and Frontend Developer</li>
+                <li><strong>Technologies Used:</strong> Figma, Miro, React, Python (Django), SQLite</li>
+                <li><strong>Highlights:</strong>
+                    <ul>
+                        <li>Qualified for the SIH 2024 Grand Finale.</li>
+                        <li>Developed an innovative transportation management solution in 36 hours.</li>
+                        <li>Received constructive feedback from industry experts.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="achievement-item">
+            <h3>UI/UX Design Internship at CODSOFT</h3>
+            <ul>
+                <li><strong>Duration:</strong> August 20 – September 20, 2024</li>
+                <li><strong>Key Contributions:</strong>
+                    <ul>
+                        <li>Explored innovative design concepts and created interactive prototypes.</li>
+                        <li>Enhanced skills in usability testing and design thinking.</li>
+                        <li>Contributed to impactful projects aimed at driving company growth.</li>
+                    </ul>
+                </li>
+                <li><strong>Tools Used:</strong> Figma, Adobe XD</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="Certifications">
+        <h2 class="heading">Certifications</h2>
+        <div class="certification-images-container">
+            <div class="certification-image">
+                <img src="Certificate/IBM-Data-Science_page-0001.jpeg" alt="IBM Data Science Certification">
+            </div>
+            <div class="certification-image">
+                <img src="Certificate/International-Student-Workshop-2024-on-Data-Science-using-Python-by-Brainovision_page-0001.jpeg" alt="Data Science Workshop Certification">
+            </div>
+            <div class="certification-image">
+                <img src="Certificate/LUEJSMAR124677_page-0001.jpeg" alt="Workshop Certification">
+            </div>
+            <div class="certification-image">
+                <img src="Certificate/Prateepan_MS_3628550_page-0001.jpeg" alt="Soft Skills Certification">
+            </div>
+            <div class="certification-image">
+                <img src="Certificate/Screenshot-2024-07-24-192159.jpeg" alt="Data Visualization Certification">
+            </div>
+            <div class="certification-image">
+                <img src="Certificate/Screenshot-2024-07-24-192219.jpeg" alt="Web Design Certification">
+            </div>
+            <div class="certification-image">
+                <img src="Certificate/Prateepan M.S_page-0001.jpg" alt="CodSoft Certification">
+            </div>
+            <div class="certification-image">
+                <img src="Certificate/7426209_1727967309 (1)_page-0001.jpg" alt="Web Design Certification">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-info">
+            <div class="info-item">
+                <i class='bx bxl-gmail'></i>
+                <span>prateepan2005@gmail.com</span>
+            </div>
+            <div class="info-item">
+                <i class='bx bxs-phone'></i>
+                <span>+91 99526 90027</span>
+            </div>
+        </div>
+    
+        <!-- Contact Form Section -->
+        <div class="contact-form">
+            <form action="your-backend-endpoint" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/prateepan-ms" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/PrateepanMS" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/theprateepanoffl/profilecard/?igsh=MXJ2cDk2dHQ4NG1ydQ==" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Achievements">Achievements</a></li>
+            <li><a href="#Certifications">Certifications</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            © 2024 Prateepan MS | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
